@@ -49,6 +49,7 @@ article > p {
 }
 
 article.img{
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.418);
     margin: -10px -10px;
     background-color: rgb(43, 24, 24);
     background-image: url(imagens/background001.jpg);
@@ -61,6 +62,7 @@ article.img{
 }
 
 article.img2{
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.521);
     margin: -10px -10px;
     background-color: rgb(43, 24, 24);
     background-image: url(imagens/background002.jpg);
