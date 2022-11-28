@@ -43,36 +43,40 @@ article {
 article > p {
     font-family: 'Sriracha' ;
     margin: 0px 0px 0px 30px;
-    font-size: auto;
+    font-size: 1.5em;
     
 
 }
 
 article.img{
+    margin: -10px -10px;
     background-color: rgb(43, 24, 24);
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     color: white;
+    font-size: 1.5em;
 
     
 }
 
 article.img2{
+    margin: -10px -10px;
     background-color: rgb(43, 24, 24);
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    font-size: 1.5em;
     
 }
 
 article.img > p, article.img2 > p {
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.329);
     margin: 0px 0px 0px 25px;
     padding: 0px 0px 3px 15px;
-    width: 230px;
+    width: 340px;
     font-size: 1em;
 
 
@@ -85,7 +89,10 @@ a {
 }
 
 a:hover {
+    transition: all 1s;
     text-decoration: underline;
+    font-style: italic;
+    color: aqua;
 }
 
 footer{
