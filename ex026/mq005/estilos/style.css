@@ -33,6 +33,7 @@ span#burguer:hover{
 }
 
 menu{
+    text-align: left;
     display: none;
 }
 

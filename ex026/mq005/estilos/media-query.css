@@ -2,3 +2,37 @@
 
 /* Para excessões e device breakpoints */
 
+@charset "UTF-8";
+
+/*Todas as demais mídias*/
+
+@media print {
+
+    body{
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    span {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+
+}
